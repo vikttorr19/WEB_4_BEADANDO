@@ -1,0 +1,44 @@
+{
+  "name": "beadando",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-sass": "^3.4.1",
+    "html2canvas": "^1.0.0-rc.5",
+    "jquery": "^3.4.1",
+    "jspdf": "^1.5.3",
+    "node-sass": "^4.12.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-file-download": "^0.3.5",
+    "react-redux": "^7.1.3",
+    "react-scripts": "3.2.0",
+    "react-toastify": "^5.4.1",
+    "redux": "^4.0.4",
+    "redux-form": "^8.2.6",
+    "flux": "^3.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "node-sass": "node-sass src/style.scss public/css/style.css"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 80px;
+}
+.bg-img{
+  background-image: url("kep.jpg");
+  min-height: 100%;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  color:black;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+.container {
+  right: 0;
+  margin: 20px;
+  max-width: 400px;
+  padding: 16px;
+  background-color: white;
+}
+* {
+  box-sizing: inherit;
+  position: -webkit-sticky;
+  border: black;
+}
+.container_{
+  position: relative;
+  right: 0;
+  margin: 20px;
+  max-width: 400px;
+  padding: 16px;
+  background-color: white;
+}
+body, html {
+  height: 100%;
+}
+.container_nav{
+  background-color: white;
+  background-size: 100px;
+}
+
+
